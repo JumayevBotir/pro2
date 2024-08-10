@@ -91,6 +91,15 @@ color: var(--color-oq);
 
 
 }
+.e{
+    border: 1px solid white;
+    margin: 20px 15px;
+    padding: 20px 0px;
+}
+.navbar-title{
+    font-weight: 350;
+    padding-bottom: 10px;
+}
 .navbar-text{
     font-family: Montserrat;
 font-size: 14px;
@@ -101,10 +110,10 @@ color: var(--color-oq);
 .navbar-bottom{
   
     background-color: var(--color-Accent);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    
     opacity: 0.8;
     width: 100%;
+   
    
     
 }
@@ -168,7 +177,7 @@ font-size: 9px;
 line-height: 10.97px;
 letter-spacing: 0.03em;
 text-align: center;
-padding-bottom: 42px;
+padding-bottom: 30px;
 
 
 
@@ -190,7 +199,7 @@ padding-bottom: 42px;
     flex-direction: column;
     align-items: center;
     margin-top: 90px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     max-width: 85%;
     
   
@@ -199,14 +208,29 @@ padding-bottom: 42px;
    
     
 }
+.box-title{
+    font-weight: 350;
+}
+.silder .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
 
 .vidio{
-     max-width: 100%;
-     height: 400px;
-     margin-inline:auto ;   
+     width: auto;
+     height: auto;
+     overflow: hidden;   
     /* box-shadow: 4px 2px 16px 1px black; */
-    border: 0.5px solid black;
     
+    
+}
+.h{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .box-img{
     padding: 12px 0;
@@ -232,7 +256,14 @@ letter-spacing: 0.05em;
 
 color: var(--color-black);
 text-align: center;
+font-weight: 500;
 
+}
+.headr-title{
+    font-weight: 500;
+}
+.card{
+    background: #F5F5F5 
 }
 
 .card .container{
@@ -242,6 +273,7 @@ text-align: center;
     padding: 26px 0;
    
 }
+
 
 .card-ifraim-bottom{
     padding-top: 15px;
@@ -269,6 +301,7 @@ padding-top: 8px;
 .headr .container{
     display: flex;
     flex-direction: column;
+    margin-top: 120px;
     
 }
 .headr-pic{
@@ -342,7 +375,7 @@ font-size: 36px;
 line-height: 52.2px;
 letter-spacing: 0.05em;
 text-align: left;
-
+font-weight: 400;
 }
 .section-btn{
     font-family: Montserrat;
@@ -371,6 +404,7 @@ border-radius: 3px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center,left top,right bottom;
+    background-attachment: fixed;
     margin-top: 9   0px;
     
 }
@@ -398,7 +432,11 @@ line-height: 52.2px;
 letter-spacing: 0.05em;
 text-align: left;
 color: var(--color-qora);
+font-weight: 500;
 
+}
+.footer-title{
+    font-weight: 400
 }
 .main-text{
     /* //styleName: p; */
@@ -414,7 +452,7 @@ padding: 12px 0px;
     /* //styleName: h3; */
 font-family: Montserrat;
 font-size: 16px;
-line-height: 21.6px;
+/* line-height: 21.6px; */
 letter-spacing: 0.05em;
 color: var(--color-qora);
 
@@ -554,6 +592,11 @@ color: #222222;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+.main-subtitle{
+    font-weight: 500;
 }
 .img{
     width: auto;
@@ -564,7 +607,7 @@ color: #222222;
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    
 
 }
 
@@ -700,6 +743,9 @@ color: #222222;
     hr{
         width: 300px;
     }
+    #text{
+    width: 260px;
+    }
 } 
 @media(max-width:865px){
     .main-left_bottom{
@@ -830,18 +876,18 @@ color: #222222;
     justify-content: center;
     align-items: center;
    } 
-   .card-w{
+   /* .card-w{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-   }   
+   }    */
    .card-ifraim_2{
     display: flex;
     flex-direction: column;
    }   
    .card-small{
-    text-align: center;
+    
    }   
    .headr-top_img{
     display: flex;
