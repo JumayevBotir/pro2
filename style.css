@@ -24,13 +24,14 @@
     padding: 6px 6px;
     color:var(--color-qora);
     font-family: Montserrat;
-font-size: 14px;
+font-size: 13px;
 line-height: 15.85px;
 letter-spacing: 0.05em;
 text-align: center;
 background-color: white;
 border: 1px solid var(--color-Accent);
 border-radius: 2px;
+text-transform: uppercase;
 }
 .nav-btn:hover{
     color: var(--color-Accent);
